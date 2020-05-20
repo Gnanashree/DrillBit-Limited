@@ -1,0 +1,166 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("ResultSheet.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Test Result Sheet or Page",
+  "description": "",
+  "id": "test-result-sheet-or-page",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@ResultSheet"
+    }
+  ]
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Test Result Sheet of Paper uploaded",
+  "description": "",
+  "id": "test-result-sheet-or-page;test-result-sheet-of-paper-uploaded",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "Open Chrome and Start application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "I Enter valid username \"gnanas844@gmail.com\" and password \"12345678\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "user should be able to login successfull to Instructor Account",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 7,
+      "value": "# And Clik on folder name or Select link to navigate to submission page"
+    }
+  ],
+  "line": 8,
+  "name": "Click on Download link to view result",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Click on Delete button to delete any file or document",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Click on Similiarty percenatge to view in deatils",
+  "keyword": "And "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 11,
+      "value": "#  Then again Click on Download Tab in result sheet to view"
+    }
+  ],
+  "line": 12,
+  "name": "Click on Save to Repository less than 30 percenatge",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Clcik on Email Notification tab",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Click on Exclude or Include Data",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "Click on Exit",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Steps.open_Chrome_and_Start_application()"
+});
+formatter.result({
+  "duration": 21914010200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "gnanas844@gmail.com",
+      "offset": 24
+    },
+    {
+      "val": "12345678",
+      "offset": 59
+    }
+  ],
+  "location": "Steps.i_Enter_valid_username_and_password(String,String)"
+});
+formatter.result({
+  "duration": 7823690200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.user_should_be_able_to_login_successfull_to_Instructor_Account()"
+});
+formatter.result({
+  "duration": 46246900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.click_on_Download_link_to_view_result()"
+});
+formatter.result({
+  "duration": 105008300,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//td[text()\u003d\u0027Gnana\u0027]/ancestor::tr/td[9]/span/a\"}\n  (Session info: chrome\u003d81.0.4044.138)\n  (Driver info: chromedriver\u003d80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 22 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1\u0027, time: \u00272016-06-30 17:37:03\u0027\nSystem info: host: \u0027DESKTOP-IJO0DUB\u0027, ip: \u0027192.168.0.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, timeouts\u003d{implicit\u003d0, pageLoad\u003d300000, script\u003d30000}, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, goog:chromeOptions\u003d{debuggerAddress\u003dlocalhost:61858}, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003dignore, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir\u003dC:\\Users\\Pragna\\AppData\\Local\\Temp\\scoped_dir7460_954822564}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, strictFileInteractability\u003dfalse, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d81.0.4044.138, browserConnectionEnabled\u003dfalse, proxy\u003d{}, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: b743831d418ae583fb94ea8ed6a3d1ab\n*** Element info: {Using\u003dxpath, value\u003d//td[text()\u003d\u0027Gnana\u0027]/ancestor::tr/td[9]/span/a}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat Step_Defination_Class.Steps.click_on_Download_link_to_view_result(Steps.java:1101)\r\n\tat ✽.Then Click on Download link to view result(ResultSheet.feature:8)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "Steps.click_on_Delete_button_to_delete_any_file_or_document()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.click_on_Similiarty_percenatge_to_view_in_deatils()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "30",
+      "offset": 38
+    }
+  ],
+  "location": "Steps.click_on_Save_to_Repository_less_than_percenatge(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.clcik_on_Email_Notification_tab()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.click_on_Exclude_or_Include_Data()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Steps.click_on_Exit()"
+});
+formatter.result({
+  "status": "skipped"
+});
+});
