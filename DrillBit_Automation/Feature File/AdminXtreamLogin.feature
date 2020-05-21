@@ -1,4 +1,5 @@
 @AdminLogin
+
 Feature: Test Admin Account Scenarios
    Scenario: Test Admin Login and Other Functionality with valid Credentaials
     Given Open Chrome and Start application
